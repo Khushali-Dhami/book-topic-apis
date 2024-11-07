@@ -1,0 +1,25 @@
+{
+  "name": "book-topic-apis",
+  "version": "0.0.1",
+  "description": "A NestJS API for managing books and topics",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "nest build"
+  },
+  "dependencies": {
+    "@nestjs/mongoose": "^10.1.0",
+    "@nestjs/platform-express": "^10.4.7",
+    "@nestjs/swagger": "^8.0.2",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.8.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "prettier": "^3.3.3"
+  }
+}
